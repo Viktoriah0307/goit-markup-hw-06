@@ -35,10 +35,6 @@ body{
     text-decoration: none;
     color: var(--title-text-color); 
 }  
-.contackts-link{
-    text-decoration: none;
-    color:var(--primary-text-color)
-} 
 .nav-link .current{
     color:var(--accent-color);
 }
@@ -46,12 +42,17 @@ body{
 .nav-link:focus{
     color:var(--accent-color);
 }
+.contackt-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color:var(--primary-text-color);
+}
 .hero{
-    background-color: #2E2F42;
+    background-color:var(--title-text-color);
 }
 .hero-title{
-    color:#FFFFFF;
-    font-weight: 600;
+    color:var(--primary-bg-color);
     font-size: 56px;
     line-height: 1.1;
     letter-spacing: 0.02em;
@@ -64,15 +65,14 @@ body{
     letter-spacing: 0.04em
 }
 .fuatures-title{ 
-    color: #2E2F42;
+    color: var(--title-text-color);
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .fuatures-text{
-    color: #434455;
-    font-size: 16px;
+    color:var(--primary-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -85,16 +85,17 @@ body{
 }
 .team-name{
     color:var(--title-text-color);
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
  }   
-.team-positionst{
+.team-position{
     color:var(--primary-text-color);
-    font-weight: 400;
-    line-height: 1.1;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .footer{
-    background-color: #2E2F42;  
+    background-color:var(--title-text-color);
 }
 .logo-footer {
     font-family: 'Raleway';
@@ -113,6 +114,7 @@ body{
     color: #E7E9FC;
 }
   .button{
+    cursor: pointer;
     background-color: #F4F4FD;
     color:var(--accent-color);
     font-family: inherit;
@@ -127,7 +129,7 @@ body{
   }
   .project-title{
     font-size: 20px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--title-text-color);
   }
