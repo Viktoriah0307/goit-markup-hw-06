@@ -48,6 +48,10 @@ body{
     text-decoration: none;
     color:var(--primary-text-color);
 }
+.contackt-link:hover,
+.contackt-link:focus{
+    color:var(--accent-color);
+}
 .hero{
     background-color:var(--title-text-color);
 }
