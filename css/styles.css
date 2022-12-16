@@ -134,10 +134,13 @@ h1,h2,h3,p {
 }
  .hero .title {
     display: block;
-    justify-content: center;
+   text-align: center;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
 
-    margin: 0 auto var(--gap48);
-    padding-bottom: 48px;
+  
+  
 
     color:var(--primary-bg-color);
     font-size: 56px;
