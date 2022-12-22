@@ -43,12 +43,11 @@ h1,h2,h3,p {
 .list{
     list-style: none;
     display: inline-flex;
-    justify-content: center;
     margin: 0;
     padding: 0;
 }
 .header{
-    padding: 24px;
+    padding: 24px 0;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container {
@@ -61,8 +60,7 @@ h1,h2,h3,p {
     padding-bottom: 120px;
 }
 .header-nav, .main-nav{
-    display:flex;
-    margin: auto;   
+    display:flex;  
 }
 .logo{
     font-family: 'Raleway',sans-serif;
@@ -82,7 +80,7 @@ h1,h2,h3,p {
     color:var(--title-text-color);
 }
 .main-nav{
-  margin-left: 0;
+  margin-right: auto;
 }
 .site-nav .item:not(:first-child){
     margin-left:40px;
@@ -136,7 +134,7 @@ h1,h2,h3,p {
    text-align: center;
     width: 540px;
     margin: 0 auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 
     color:var(--primary-bg-color);
     font-size: 56px;
@@ -162,6 +160,7 @@ h1,h2,h3,p {
 }  
 .section .strengths{
       gap: 24px;
+      margin: 0;
 }
 .strengths{
    padding-bottom: 0; 
@@ -194,19 +193,18 @@ h1,h2,h3,p {
 .section .work {
     align-items: center;
     padding-top: 0;
+    gap: 24px;
 }
 .section-work-title,
 .section-team-title {
     text-align: center;
-    margin-top: 120px;
     margin-bottom: 72px;
     color: var(--secondary-color);
     font-size: 36px;
     line-height: 1.11;
 }
-.work, .team{
-    display: flex;
-    justify-content: space-between;
+.team-list{
+gap: 24px;
 }
 .section-title{
     text-align: center;
@@ -245,13 +243,14 @@ h1,h2,h3,p {
 }
 .footer{
     background-color:var(--title-text-color);
-    padding: 100px;
+    padding: 100px 0;
 }
 .logo-studio-footer{
     color:var(--primary-bg-color);
     
 }
 .logo-footer {
+    display: block;
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -268,6 +267,12 @@ h1,h2,h3,p {
     color: #E7E9FC;
 
     width: 264px;
+}
+.portfolio{
+    padding-bottom: 96px;
+}
+.section gallery{
+
 }
 .selektor{
     display:flex;
