@@ -302,19 +302,15 @@ background-color: #404BBF;
 }
 .social-list-item-link-instagram{
     background-image: url(/images/symbol-defs.svg#icon-instagram);
-
 }
 .social-list-item-link-twitter{
     background-image: url(/images/symbol-defs.svg#icon-twitter);
-
 }
 .social-list-item-link-facebook{
     background-image: url(/images/symbol-defs.svg#icon-facebook);
-
 }
 .social-list-item-link-linkedin{
     background-image: url(/images/symbol-defs.svg#icon-linkedin);
-
 }
 .section .clients{
     gap: 24px;
@@ -334,7 +330,6 @@ background-color: #404BBF;
     height: 56px;
     margin: 16px 32px;
 }
-
 .client:hover{
    fill: #404BBF;
    border:1px solid #404BBF;
@@ -377,11 +372,9 @@ background-color: #404BBF;
     height:40px;
     width:40px;
 }
-
 .footer .social-list-link{
     background-color: var(--primary-text-color);
 }
-
 .footer .social-list :hover,
 .footer .social-list:focus{
  background-color:#31D0AA;
@@ -389,9 +382,7 @@ background-color: #404BBF;
 .portfolio{
     padding-top: 96px;
 }
-.section gallery{
 
-}
 .selektor{
     margin-bottom: 72px;
     display:flex;
