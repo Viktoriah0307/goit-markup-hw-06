@@ -186,9 +186,11 @@ h1,h2,h3,p {
     height: 64px;
     margin-top: 24px;
     margin-left: 100px;
+    
+} 
+.icon clock{
     background-color: var(--secondary-bg-color);
     }
-
 .strengths-title{ 
     color: var(--title-text-color);
     font-weight: 600;
