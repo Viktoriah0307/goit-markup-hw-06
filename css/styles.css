@@ -373,12 +373,12 @@ background-color: #404BBF;
     color: #E7E9FC;
 }
 .footer .social-list-link{
-    border-radius: 50%;
     background-color: var(--primary-text-color);
 }
 .footer .social-list-link :hover,
 .footer .social-list-link :focus{ 
     background-color:#31D0AA;
+    border-radius: 50%;
 }
 .footer-social-icon{
     height: 24px;
