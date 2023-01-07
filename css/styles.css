@@ -179,16 +179,16 @@ h1,h2,h3,p {
       margin: 0;
 } 
 .list-strengths-icon{
-    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 112px;
-    width: 264px;
+    width: 264px; 
     background-color: var(--secondary-bg-color);
 }
 .icon{
     width: 64px;
-    height: 64px;
-    margin-top: 24px;
-    margin-left: 100px;   
+    height: 64px;  
 } 
 .icon clock{
     background-color: var(--secondary-bg-color);
@@ -271,9 +271,6 @@ gap: 24px;
     margin-top: 8px; 
 }
 .social-list-link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 40px;
     height:40px;
 }
@@ -286,9 +283,16 @@ gap: 24px;
 .social-list-link:focus{
 background-color: #404BBF;   
 }
-.social-list-item{
+.social-icon{
     height: 16px;
-    width: 16px;   
+    width: 16px;
+}
+.social-list-item{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
 }
 .social-list-item-link-instagram{
     background-image: url(/images/symbol-defs.svg#icon-instagram);
@@ -306,11 +310,9 @@ background-color: #404BBF;
     gap: 24px;
 }
 .client{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 168px;
     height: 88px;
+    
     border: 1px solid rgba(142, 143, 153, 1);
     border-radius:4px;
 }
@@ -320,14 +322,22 @@ background-color: #404BBF;
     border:1px solid #404BBF;
 }
 .svg-client{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     fill:#8E8F99 ;
     cursor: pointer;
-    width: 104px;
-    height: 56px;
+    
 }
 .svg-client:hover,
 .svg-client:focus{
    fill: #404BBF;
+}
+.client-icon{
+    width: 104px;
+    height: 56px;
 }
 .footer{
     background-color:var(--title-text-color);
@@ -363,11 +373,16 @@ background-color: #404BBF;
     color: #E7E9FC;
 }
 .footer .social-list-link{
+    border-radius: 50%;
     background-color: var(--primary-text-color);
 }
-.footer .social-list :hover,
-.footer .social-list:focus{
- background-color:#31D0AA;
+.footer .social-list-link :hover,
+.footer .social-list-link :focus{ 
+    background-color:#31D0AA;
+}
+.footer-social-icon{
+    height: 24px;
+    width: 24px;
 }
 .portfolio{
     padding-top: 96px;
@@ -446,7 +461,7 @@ background-color: #404BBF;
   }
   .card-link{
     display: block;
-    cursor: pointer;
+    text-decoration: none;
   }
   .card-link:hover{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
