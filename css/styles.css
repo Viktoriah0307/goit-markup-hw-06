@@ -185,6 +185,7 @@ h1,h2,h3,p {
     height: 112px;
     width: 264px; 
     background-color: var(--secondary-bg-color);
+    margin-bottom: 8px;
 }
 .icon{
     width: 64px;
