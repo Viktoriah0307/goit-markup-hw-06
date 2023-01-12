@@ -25,9 +25,9 @@
           </ul>
         </nav>
         <ul class="contackts list">
-          <li class="item"><a href="tel:+110001111111" class="contackt-link">+11 (000) 111-11-11</a>
+          <li class="item-contackt"><a href="tel:+110001111111" class="contackt-link">+11 (000) 111-11-11</a>
           </li>
-          <li class="item">
+          <li class="item-contackt">
             <a href="mailto:info@devstudio.com" class="contackt-link">info@devstudio.com</a>
           </li>
         </ul>
@@ -38,15 +38,6 @@
   <div class="container">
     <h1 class="title">Effective Solutions for Your Business</h1>
     <button data-modal-open type="button" class="hero-button" >Order Service</button>
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-    <button data-modal-close class="modal-button" >
-    <svg class="modal-button-text" >
-      <use href="./images/symbol-defs.svg#icon--x"></use>
-    </svg>
-  </button>
-  </div>
-</div>
   </div>
     </section>
     <section class="section strengths">
@@ -369,6 +360,15 @@
         </div>
        </div>
       </footer>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+      <button class="modal-button"data-modal-close>
+        <svg>
+          <use href="./images/close-button-modal.svg"></use>
+        </svg>
+    </button>
+    </div>
+  </div>
     </main>
     <script src="./js/modal.js"></script>
   </body> 
