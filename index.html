@@ -361,16 +361,14 @@
         <div class="footer-subscribe-telegram">
         <p class="footer-text">Subscribe</p>
           <form class="form-footer">
-            <label class="details">
+            <label>
               <input class="footer-email" type="email" name="email" placeholder="E-mail">
             </label>
-            ,<label>
-              <button class="footer-submit" type="submit">Subscribe
-              <svg class="details-icon" arial-label="send" class="modal-icon-send">
-                <use href="./images/symbol-defs.svg#icon-send"></use>
+            <button class="footer-submit" type="submit">Subscribe
+              <svg class="details-icon-footer" arial-label="send" class="modal-icon-send">
+                <use  href="./images/symbol-defs.svg#icon-send"></use>
               </svg></button>
-            </label>
-          </form>     
+            </form>     
         </div>
        </div>
       </footer>
@@ -381,26 +379,24 @@
           <use href="./images/symbol-defs.svg#icon-x"></use>
         </svg>
     </button>
-    <div class="inputs">
       <form class="form">
-        <div class="modal-form-group" role="group" aria-labelledby="contact-details-head">
         <p class="contact-details-title" id="contact-details">Leave your contacts and we will call you back</p>
         <div class="form-field">
         <label class="details">
-          Name 
+          Name
           <svg class="details-icon" arial-label="name" class="modal-icon-name">
             <use href="./images/symbol-defs.svg#icon-name"></use>
           </svg>
-          <input  type="text" name="username" /> 
+          <input  type="text" name="username"/> 
         </label>
         </div>
         <div class="form-field">
-        <label class="details">
+         <label class="details">
           Phone
         <svg class="details-icon" arial-label="name" class="modal-icon-phone">
           <use href="./images/symbol-defs.svg#icon-phone"></use>
         </svg>
-          <input type="email" name="email" />
+          <input type="email" name="email"/>
         </label>
         </div>
         <div class="form-field">
@@ -409,24 +405,23 @@
           <svg class="details-icon" arial-label="name" class="modal-icon-email">
             <use href="./images/symbol-defs.svg#icon-email"></use>
           </svg>
-          <input placeholder="" type="email" name="email" />
+          <input placeholder="" type="email" name="email"/>
         </label>
         </div>
-      <div class="form-field">
-      <label class="details">
+      <div class="form-field-comment">
+      <label class="details details-comment">
         Comment
-        <textarea name="" id="" cols="auto" rows="7" placeholder="Text input"></textarea>
+        <textarea class="comment-text" name="comment-text" id="" cols="auto" rows="6" placeholder="Text input"></textarea>
       </label>
         </div>
         <div class="form-field">
-          <label >
-            <input  class="checheckbox-privacy-policy" type="checkbox" name="privacy-policy" value="accept">
-            I accept the terms and conditions of the
-             <a href="/">Privacy Policy</a>   
-          </label>
-        </div>  
-      <button  type="submit" class="modal-button-send">Send</button>
-    </div>
+          <label class=" details-checkbox">
+          <input class="checkbox-privacy-policy" type="checkbox" name="privacy-policy" value="accept">
+          I accept the terms and conditions of the
+             <a href="/">Privacy Policy</a>
+            </label>
+          <button type="submit" class="modal-button-send">Send</button>
+        </div> 
    </form>
   </div>
     </main>
