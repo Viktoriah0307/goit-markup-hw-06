@@ -586,18 +586,17 @@ input{
     .details-checkbox{
      display: flex;
      align-items: center;
-     margin-right: 8px;
     }
     .icon-checkbox{
         display: inline-block;
         width: 16px;
         height: 16px;
         margin-right: 8px;
-        border:4px var(--primary-text-color);
+        border:4px var(--title-text-color);
         border-radius: 4px;
     }
-    .checkbox:checked + .icon-checkbox{
-        background-color: var(--accent-color);
+    .checkbox-privacy-policy:checked +.icon-checkbox{
+        background-color:var(--accent-color);
         background-size: contain;
         background-origin: border-box;
         border-color: var(--accent-color);
