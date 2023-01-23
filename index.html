@@ -354,7 +354,7 @@
                 <svg class="footer-social-icon">
                   <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
-            </a>
+              </a>
             </li>
           </ul>
         </div>
@@ -364,10 +364,12 @@
             <label>
               <input class="footer-email" type="email" name="email" placeholder="E-mail">
             </label>
+            <label>
             <button class="footer-submit" type="submit">Subscribe
               <svg class="details-icon-footer" arial-label="send" class="modal-icon-send">
                 <use  href="./images/symbol-defs.svg#icon-send"></use>
               </svg></button>
+            </label>
             </form>     
         </div>
        </div>
@@ -379,57 +381,51 @@
           <use href="./images/symbol-defs.svg#icon-x"></use>
         </svg>
     </button>
-      <form class="form">
-        <p class="contact-details-title" id="contact-details">Leave your contacts and we will call you back</p>
-        <div class="form-field">
-        <label class="details">
-          Name
-          <svg class="details-icon" arial-label="name" class="modal-icon-name">
+      <form class="registration-form" name="registration_form">
+        <strong class="registration-form-appeal" id="">Leave your contacts and we will call you back</strong>
+        <div class="registration-form-group" role="group" aria-labelledby="">
+        <label class="registration-form-field" for="name">
+          <span class="registration-form-label">Name</span>
+          <input class="registration-form-input" type="text" name="user_name">
+          <svg class="registration-form-icon" width="18" hidth="18">
             <use href="./images/symbol-defs.svg#icon-name"></use>
           </svg>
-          <input  type="text" name="username"/> 
         </label>
-        </div>
-        <div class="form-field">
-         <label class="details">
-          Phone
-        <svg class="details-icon" arial-label="name" class="modal-icon-phone">
-          <use href="./images/symbol-defs.svg#icon-phone"></use>
-        </svg>
-          <input type="email" name="email"/>
+
+         <label class="registration-form-field" for="phone">
+          <span class="registration-form-label">Phone</span>
+          <input class="registration-form-input" type="text" name="user_phone"> 
+          <svg class="registration-form-icon" arial-label="phone" class="modal-icon-phone">
+             <use href="./images/symbol-defs.svg#icon-phone"></use>
+          </svg>
         </label>
-        </div>
-        <div class="form-field">
-        <label class="details">
-          Email
-          <svg class="details-icon" arial-label="name" class="modal-icon-email">
+
+        <label class="registration-form-field">
+          <span class="registration-form-label">Email</span>
+          <input class="registration-form-input" placeholder="" type="email" name="user_mail">
+          <svg class="registration-form-icon" arial-label="email" class="modal-icon-email">
             <use href="./images/symbol-defs.svg#icon-email"></use>
           </svg>
-          <input placeholder="" type="email" name="email"/>
         </label>
-        </div>
-      <div class="form-field-comment">
-      <label class="details details-comment">
-        Comment
-        <textarea class="comment-text" name="comment-text" id="" cols="auto" rows="8" placeholder="Text input"></textarea>
+      <label>
+        <span class="registration-form-label">Comment</span>
+        <textarea class="registration-form-message" name="user_message" cols="auto" rows="7" placeholder="Text input"></textarea>
       </label>
-        </div>
-        <div class="form-field">
-          <label class=" details-checkbox">
-          <input class="checkbox-privacy-policy"
-           type="checkbox" name="privacy-policy" value="accept">
-           <span>
-            <svg class="icon-checkbox" aria-label="checkbox">
-              <use href="./images/symbol-defs.svg#icon-Checkbox-1"></use>
-            </svg>
-          I accept the terms and conditions of the
-             <a href="/">Privacy Policy</a>
-            </span>
-            </label>
-          <button type="submit" class="modal-button-send">Send</button>
-        </div> 
-      </form>
-    </div>
+       <label class="registration-form-agreement">
+          <input class="registration-form-checkbox"
+                      type="checkbox" name="privacy_policy" value="accept">
+                <svg class="registration-form-check" aria-label="checkbox" >
+                      <use class="check" href="./images/symbol-defs.svg#icon-checked"></use>
+                      <use class="uncheck" href="./images/symbol-defs.svg#icon-unchecked"></use>
+                </svg>
+           <span class="registration-form-text">
+                 I accept the terms and conditions of the
+            <a class="registration-form-link" href="/">Privacy Policy</a>
+           </span>
+          </label>
+         </div>
+        <button type="submit" class="modal-button-send">Send</button>
+      </form> 
     </main>
     <script src="./js/modal.js"></script>
   </body> 
