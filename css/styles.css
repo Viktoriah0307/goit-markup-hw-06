@@ -510,7 +510,7 @@ background-color: #404BBF;
     margin-right: auto;
     border-radius: var(--primary-text-color)
     }
-    .registration-form-appeal{
+.registration-form-appeal{
         display: block;
         text-align:center;
         margin-bottom: 14px;
